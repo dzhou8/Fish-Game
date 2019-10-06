@@ -7,4 +7,4 @@ My personal statement is found in personalStatement.txt
 Ugly/uncleaned version of the engineering challenge can be found in /debug
 
 
-Clean version & documentation of the engineering challenge can be found in /final
+Clean(er) version & documentation of the engineering challenge can be found in /final
