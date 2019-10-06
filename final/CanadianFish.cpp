@@ -1041,7 +1041,6 @@ struct HumanPlayer : Player
 		system("CLS");
 		cout << "Use the up and down arrow keys to move your selection and press spacebar to make your selection." << endl << endl;
 		g->print();
-		cout << "MENU OPTION: " << menuOption << endl;
 	}
 
 	void endGame() //this player is "forced" to call fish because it is the end of the game
