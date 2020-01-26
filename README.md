@@ -1,10 +1,8 @@
-# kpcb-application
+# Fish
 
-Hi, welcome to my application for KPCB.
+Hi, I wrote a program to play the game of Fish.
 
-My personal statement can be found in personalStatement.txt
-
-Ugly/uncleaned version of the engineering challenge can be found in /debug
+Ugly/uncleaned version of Fish can be found in /debug
 
 
-Clean(er) version & documentation of the engineering challenge can be found in /final
+Clean(er) version & documentation of Fish can be found in /final
