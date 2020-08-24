@@ -10,9 +10,10 @@ Clean(er) version & documentation of Fish can be found in /final
 
 
 Some screenshots of the program in action below:
-![Someone else's turn](/screenshots/1.png)
-![Your turn!](/screenshots/2.png)
-![Selection of half-suits](/screenshots/3.png)
-![Selection of card](/screenshots/4.png)
-![Suit of Fish](/screenshots/5.png)
-![Declaring Fish](/screenshots/6.png)
+
+![Someone else's turn](/screenshots/1.PNG)
+![Your turn!](/screenshots/2.PNG)
+![Selection of half-suits](/screenshots/3.PNG)
+![Selection of card](/screenshots/4.PNG)
+![Suit of Fish](/screenshots/5.PNG)
+![Declaring Fish](/screenshots/6.PNG)
