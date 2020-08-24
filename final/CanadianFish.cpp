@@ -12,6 +12,7 @@ LANG: C++11
 #include <time.h>
 #include <iterator>
 #include <conio.h>
+#include <algorithm>
 
 using namespace std;
 
@@ -54,7 +55,7 @@ void printCard(int cardID)
 {
 	cout << getCardString(cardID) << " ";
 }
-int getHalfSuit(int cardID) 
+int getHalfSuit(int cardID)
 {
 	return 2 * cardID / NUMBER_MAX;
 }
@@ -222,7 +223,7 @@ struct Game
 	int score[SUIT_MAX * 2];
 	int endGameTeam;
 
-	vector <pair<vector<int>, vector<int> > > history; 
+	vector <pair<vector<int>, vector<int> > > history;
 	/*
 	History is essentially datakeeping what the game state has been previously
 	only useful for thinkingPlayer
@@ -1238,7 +1239,7 @@ struct ThinkingPlayer : Player
 	vector<vector<int>> cardLocationKnowledge; //list of players who could have card I
 	//starts with everyone and dwindles down with misses
 	vector<vector<int>> halfSuitKnowledge; //minimum number of cards player I has in halfSuit J
-	
+
 	ThinkingPlayer(string name, Game* g, int memoryInput) : Player(name, g) { memory = memoryInput; };
 
 	void generateKnowledge()
